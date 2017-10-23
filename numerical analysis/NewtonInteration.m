@@ -14,11 +14,6 @@ while(abs(f(x0)) > r && n < num )
 %   R=feval(df,x0);
     x0 = eval(x0 - f(x0)*1.0/df(x0));
     fprintf("The value is %f.\n",x0);
- %   syms a b c d;
- %  [a, b] = size(f(x0)*1.0);
- %  [c, d] = size(df(x0));
- %  fprintf("f(x0)*1.0 is %d*%d \n",a,b);
- %  fprintf("diff(f(x0)) is %d*%d \n",c,d); 
     n = n + 1; 
 end   
 if(n>num)
