@@ -1,5 +1,5 @@
 f1 = @(x)[x*exp(x)-1];
-x0 = NewtonSe(f1,0.5)
+x0 = NewtonInteration(f1,0.5)
 %{
 1 times iteration.
 The value is 0.571020.
