@@ -2,7 +2,7 @@ function y = biSe(f, a, b, r)
 % binary search method for f(x) = 0, the lower and upper bound are a and b respectively. r is the tolerance error.
 syms c;
 if (f(a)*f(b) > 0)
-    printf("The initial value is wrong");
+    fprintf("The initial value is wrong");
 else
   while(f((a+b)/2)~=0 || abs(f(a)-f(b)) > r)
     c = (a+b)/2;
