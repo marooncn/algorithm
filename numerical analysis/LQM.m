@@ -26,5 +26,11 @@ for i=1:r+1
 end
 P = A\B';
 
+%inverse P to make P(1) is the highest order rather than the lowest.
+for i=1:r+1
+    Q(i) = P(r+2-i);
+end
+P = Q;
+
 end
  
