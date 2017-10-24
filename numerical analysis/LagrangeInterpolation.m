@@ -1,6 +1,6 @@
 function y = LagrangeInterpolation(X,Y,xh)
 %Lagrange Interpolation, 
-%X and Y is interpolation points and corresponding value.
+%X and Y is interpolation points and corresponding values.
 n = length(X);
 if ( length(Y) ~= n)
     fprintf("The input two vectors aren't the same size!");
