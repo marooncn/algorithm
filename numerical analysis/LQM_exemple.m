@@ -8,5 +8,5 @@
  x = [3:0.1:9];
  plot(X,Y,'b',x,polyval(P1,x) ,'y',x,polyval(P3,x) ,'g')
  xlabel('x'),ylabel('y');
- legend('original data','r=1','r=3')
+ legend('original data','r=1','r=3');
  title("The least-square method")
