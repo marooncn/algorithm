@@ -2,12 +2,12 @@
   It can solve the following problems: 
 
 ## 1. f(x) = 0 
-  `biSe.m`                            -- Binary search <br> 
-  `NewtonInteration.m`                -- Newton Interation Method <br> 
-  `SecantMethod.m`                    -- Secant Method (a simple multi-points interation method) <br> 
+  `biSe.m`                            -- Binary search<br>
+  `NewtonInteration.m`                -- Newton Interation Method <br>
+  `SecantMethod.m`                    -- Secant Method (a simple multi-points interation method) 
 
 ## 2. AX = B  
-  `GaussianElim.m`                    -- Gaussian Elimination Method <br> 
+  `GaussianElim.m`                    -- Gaussian Elimination Method 
 
 ## 3. Interpolation  
   `LagrangeInterpolation.m`           -- Lagrange Interpolation Method <br> 
