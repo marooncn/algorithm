@@ -1,3 +1,4 @@
+
 %For showing Runge's Phenomenon
 X = (-1.0:0.2:1.0);  %interplotion points
 f = @(x)(1.0./(1+25*x.^2));
@@ -13,4 +14,5 @@ plot(x,f(x),'b',x,L,'g',x,E,'r');
 legend('f(x)','L(x)','|E(x)|');
 xlabel('x'),ylabel('y');
 title("Runge's Phenomenon");
-% you can also execute linearInterpolation.m to watch piecewise linear interpolation of the same function.
+% you can also execute linearInterpolation.m to watch piecewise linear interpolation  and
+% CubicSpline.m to watch Cubic Spline Interpolation of the same function.
