@@ -2,8 +2,8 @@
   It can solve the following problems: 
 
 ## 1. f(x) = 0 
-  `biSe.m`      -- Binary search<br>
-  `NewtonInteration.m`        -- Newton Interation Method <br>
+  `biSe.m`                            -- Binary search<br>
+  `NewtonInteration.m`        　　　　　-- Newton Interation Method <br>
   `SecantMethod.m`                    -- Secant Method (a simple multi-points interation method) 
 
 ## 2. AX = B  
@@ -13,5 +13,5 @@
   `LagrangeInterpolation.m`           -- Lagrange Interpolation Method <br>
   `CubicSpline.m`                     -- an example of Cubic Spline Interpolation <br>
   `linearInterpolation.m`             -- an example of piecewise linear interpolation  <br>
-  `LSM.m`                             -- The least-square Interpolation Method <br>
-
+  `LSM.m`                             　　　-- The least-square Interpolation Method <br>
+　
