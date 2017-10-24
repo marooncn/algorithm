@@ -1,7 +1,7 @@
 %For showing Runge's Phenomenon
 X = (-1.0:0.2:1.0);  %interplotion points
 f = @(x)(1.0./(1+25*x.^2));
-Y = f(X);  %the corresponding value of interplotion points
+Y = f(X);  %the corresponding values of interplotion points
 k = 1;
 for i=-1.0:0.03:1.0
     E(k) = f(i) - LagrangeInterpolation(X,Y,i);
