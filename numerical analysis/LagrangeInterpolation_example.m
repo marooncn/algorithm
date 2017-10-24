@@ -13,3 +13,4 @@ plot(x,f(x),'b',x,L,'g',x,E,'r');
 legend('f(x)','L(x)','|E(x)|');
 xlabel('x'),ylabel('y');
 title("Runge's Phenomenon");
+% you can also execute linearInterpolation.m to watch piecewise linear interpolation of the same function.
