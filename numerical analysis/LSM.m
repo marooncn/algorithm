@@ -1,4 +1,4 @@
-function P = LQM(X,Y,r)
+function P = LSM(X,Y,r)
 % The least-square method
 %X and Y is interpolation points and corresponding value. r is Polynomial order.
 n = length(X);
