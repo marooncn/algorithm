@@ -13,7 +13,7 @@ These are matlab programs for numerical analysis.
   `LagrangeInterpolation.m`：Lagrange Interpolation Method <br>
   `CubicSpline.m`：an example of Cubic Spline Interpolation <br>
   `linearInterpolation.m`：an example of piecewise linear interpolation  <br>
-  `LSM.m`：The least-square Interpolation Method <br>
-　
+  `LSM.m`：The least-square Interpolation Method 
+  
 ## 4. differential equation
  `RK4.m`: Classic Runge-Kuta Methods <br>
