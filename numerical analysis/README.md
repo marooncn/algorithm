@@ -17,3 +17,4 @@ These are matlab programs for numerical analysis.
   
 ## 4. differential equation
  `RK4.m`: Classic Runge-Kuta Methods <br>
+ `Euler.m`: Explcit/Implicit Euler integration
