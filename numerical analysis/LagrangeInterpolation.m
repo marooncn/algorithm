@@ -11,7 +11,7 @@ for i=1:n
     l(i) = 1;
     for j=1:n
         if(j~=i)
-            l(i) = l(i)*(xh-X(j))*1.0/(X(i)-X(j));
+            l(i) = l(i)*(xh-X(j))/(X(i)-X(j));
         end
     end
     y = y + l(i)*Y(i);
