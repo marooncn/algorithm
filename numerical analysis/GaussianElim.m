@@ -22,7 +22,7 @@ for j=1:n
     %高斯消元
     for i=j+1:n
         if(A(i,j) ~= 0)
-            r = A(j,j)*1.0/A(i,j);
+            r = A(j,j)/A(i,j);
             A(i,:) = A(j,:) - r.*A(i,:);
             B(i) = B(j)- r.*B(i);
         end
@@ -39,13 +39,13 @@ end
 % end
 
 %求解X
-X(n) = B(n)*1.0/A(n,n);
+X(n) = B(n)/A(n,n);
 for i=n-1:-1:1
     s = 0;
     for j=i+1:n
         s = s + A(i,j)*X(j);
     end
-    X(i) = (B(i)-s)*1.0/A(i,i);
+    X(i) = (B(i)-s)/A(i,i);
    % fprintf("A(%d,%d)=%f",i,i,A(i,i));
 end
 end
