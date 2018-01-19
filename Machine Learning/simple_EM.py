@@ -1,4 +1,4 @@
-# simple Expectation Maximum example,
+# simple Expectation Maximum example
 # reference: https://stackoverflow.com/questions/11808074/what-is-an-intuitive-explanation-of-the-expectation-maximization-technique#
 import numpy as np
 from scipy import stats
