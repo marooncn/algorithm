@@ -1,4 +1,4 @@
-# Example: estimate P(Y > 3) where Y~N(0,1)
+# Example: estimate P(Y > 3) where Y ~ N(0,1)
 # tutorial: http://astrostatistics.psu.edu/su14/lectures/cisewski_is.pdf
 import numpy as np
 truth = 0.001349
