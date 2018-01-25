@@ -1,3 +1,6 @@
+## KNN.py
+a classifiation example using k-Nearest Neighbour (kNN) algorithm
+tutorial: [KNN](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_ml/py_knn/py_knn_understanding/py_knn_understanding.html#knn-understanding)
 ## simple_EM.py 
 a simple example to illustrate Expectation Maximum algorithm.
 
