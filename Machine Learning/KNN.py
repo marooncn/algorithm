@@ -32,7 +32,6 @@ if responses[sortedDistIndices[0]] == 0:
 else:
     print("Nearest Neighbour:   blue")
 
-
 # k-Nearest Neighbour
 num = int(num)
 rnum = np.count_nonzero(responses[sortedDistIndices[0:num]].ravel() == 0)
@@ -60,12 +59,3 @@ else:
 
 # show the plot
 plt.show()
-
-
-
-
-
-
-
-
-
